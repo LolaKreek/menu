@@ -9,10 +9,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="~/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="RestaurantApp.styles.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    
+    @* UIkit library *@
+    <link rel="stylesheet" href="css/uikit/css/uikit.min.css" />
+    
+    <title>Restaurant app</title>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
 <body>
@@ -30,6 +33,10 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+
+    @* UIkit library *@
+    <script src="css/uikit/js/uikit-icons.min.js"></script>
+    <script src="css/uikit/js/uikit.min.js"></script>
 </body>
 </html>
 
